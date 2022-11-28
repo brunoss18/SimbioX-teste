@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEF1FF;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+  nav > h2 a:hover {
+  transform: scale(1.30);
+
+}
+
+
+@media (max-width: 480px) {
+  #navbar{
+      border-radius: 0rem;
+  
+  }
+  #navbar h2 a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: .8rem;
+}
+#navbar input {
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+  border: none;
+  /* width: 63%; */
+}
+
+.movies-container div {
+  width: 100%;
+  color: #1100ff;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border: 3px solid blue;
+  border-radius: 1rem;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-page {
+  color: #1100ff;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 3px solid #1100ff;
+  border-radius: 1rem;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.movie-page .movie-card img{
+  width: 100%;
+}
+
+.info > p {
+  text-align: center;
+}
+.description > p {
+  text-align: left !important;
+}
+}
